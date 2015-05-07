@@ -14,19 +14,19 @@
         require('componentes/nav.php');
         ?>
         
-        <h1>InspiraÃ§Ã£o</h1>
+        <h1>Inspiração</h1>
         
         <div>
-            <span>O que vocÃª criaria se nÃ£o tivesse medo?</span>
+            <span>O que você criaria se não tivesse medo?</span>
         </div>
         
         <div>
             <span>PUC Jovens Ideias 2015</span>
-            <span>InscriÃ§Ãµes de 1 Ã  30 de Junho.</span>
+            <span>Inscrições de 1 à 30 de Junho.</span>
         </div>
                 
         <footer>
-            <p>RodapÃ©</p>
+            <p>Rodapé</p>
         </footer>
         
     </div> <!-- fecha div container -->

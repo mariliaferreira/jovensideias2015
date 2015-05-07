@@ -13,13 +13,13 @@
         ?>
         
         <article>
-            <h2>Inscri√ß√£o</h2>        
+            <h2>InscriÁ„o</h2>        
             <div class="inscricao">
                 <ul>
                     <li class="active"><a href="inscricao.php">Categoria</a></li>
                     <li><a href="inscricao-passo2.php">Sobre o Projeto</a></li>
                     <li><a href="inscricao-passo3.php">Equipe</a></li>
-                    <li><a href="">Confirmar</a></li>
+                    <li><a href="inscricao-passo4.php">Confirmar</a></li>
                 </ul>
             </div>
                 
@@ -28,20 +28,20 @@
                     <ul>
                         <li> 
                             <input type="radio" name="categoria-inscricao" id="jovens-ideias" value="one">
-                            <label for="sem-orientacao"><span>PUC Jovens Ideias</span> - Sou estudante de gradua√ß√£o ou p√≥s-gradua√ß√£o e meu projeto <strong>n√£o tem</strong> orienta√ß√£o de Professor/Mentor.</label>
+                            <label for="sem-orientacao"><span>PUC Jovens Ideias</span> - Sou estudante de graduaÁ„o ou pÛs-graduaÁ„o e meu projeto <strong>n„o tem</strong> orientaÁ„o de Professor/Mentor.</label>
                         </li>
                         <li>
                             <input type="radio" name="categoria-inscricao" id="pesquisar-evoluir" value="two">
-                            <label for="com-orientacao"><span>Espa√ßo Pesquisar √© Evoluir</span> - Sou estudante de gradua√ß√£o ou p√≥s-gradua√ß√£o e meu projeto <strong>tem orienta√ß√£o</strong> de Professor/Mentor (TCC, PIBIC, PIBITI, monografia, disserta√ß√£o de mestrado, tese de doutorado, etc).</label>
+                            <label for="com-orientacao"><span>EspaÁo Pesquisar È Evoluir</span> - Sou estudante de graduaÁ„o ou pÛs-graduaÁ„o e meu projeto <strong>tem orientaÁ„o</strong> de Professor/Mentor (TCC, PIBIC, PIBITI, monografia, dissertaÁ„o de mestrado, tese de doutorado, etc).</label>
                         </li>
                         <li>
                             <input type="radio" name="categoria-inscricao" id="jovens-ideias-junior" value="three">
-                            <label for="com-orientacao"><span>PUC Jovens Ideias Junior</span> - Sou estudante do <strong>Ensino M√©dio</strong> e meu projeto <strong>tem</strong> orienta√ß√£o de Professor/Mentor.</label>
+                            <label for="com-orientacao"><span>PUC Jovens Ideias Junior</span> - Sou estudante do <strong>Ensino MÈdio</strong> e meu projeto <strong>tem</strong> orientaÁ„o de Professor/Mentor.</label>
                         </li>
                     </ul>
                     
                     <div class="nav-form">
-                        <button>Pr√≥ximo</button>
+                        <button>PrÛximo</button>
                     </div>
                     
                     

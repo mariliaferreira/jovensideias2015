@@ -12,37 +12,34 @@
         require('componentes/nav.php');
         ?>
         
-        <article data-sr='hustle 5%'>
-            <h2>Inscrição</h2>        
+        <article>
+            <h2>Inscri��o</h2>        
             <div class="inscricao">
                 <ul>
-                    <li class="active"><a href="">Categoria</a></li>
-                    <li>Sobre o Projeto</li>
-                    <li>3</li>
-                    <li>4</li>
+                    <li><a href="inscricao.php">Categoria</a></li>
+                    <li><a href="inscricao-passo2.php">Sobre o Projeto</a></li>
+                    <li><a href="inscricao-passo3.php">Equipe</a></li>
+                    <li class="active"><a href="inscricao-passo4.php">Confirmar</a></li>
                 </ul>
             </div>
                 
-                <div class="dados-inscricao-1">
-                                                       
-                    <ul>
-                        <li> 
-                            <input type="radio" name="categoria-inscricao" id="jovens-ideias" value="one">
-                            <label for="sem-orientacao"><span>PUC Jovens Ideias</span> - Sou estudante de graduação ou pós-graduação e meu projeto <strong>não tem</strong> orientação de Professor/Mentor.</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="categoria-inscricao" id="pesquisar-evoluir" value="two">
-                            <label for="com-orientacao"><span>Espaço Pesquisar é Evoluir</span> - Sou estudante de graduação ou pós-graduação e meu projeto <strong>tem orientação</strong> de Professor/Mentor (TCC, PIBIC, PIBITI, monografia, dissertação de mestrado, tese de doutorado, etc).</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="categoria-inscricao" id="jovens-ideias-junior" value="three">
-                            <label for="com-orientacao"><span>PUC Jovens Ideias Junior</span> - Sou estudante do <strong>Ensino Médio</strong> e meu projeto <strong>tem</strong> orientação de Professor/Mentor.</label>
-                        </li>
-                    </ul>
+                <div class="dados-inscricao-2">                           
                     
-                    <button>Anterior</button>
-                    <button>Próximo</button>
+                <section>
                     
+                    <div>
+                       
+                        <input type="checkbox" name="vehicle" value="Bike"> Afirmo que as informa��es que utilizei no formul�rio s�o verdadeiras e concordo sumaria e plenamente com o disposto no Regulamento do Concurso Jovens Ideias 2015<br /><br />
+
+                    </div>
+		          </section>
+
+                    
+                    
+                    <div class="nav-form">
+                        <button>Voltar</button>
+                        <button>Finalizar Inscri��o</button>
+                    </div>
                 </div>            
         </article>
                 

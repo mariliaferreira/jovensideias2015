@@ -25,7 +25,7 @@
                     <li data-sr='hustle 5%'>
                         <ul>
                             <li><span>12</span><br /> de Maio</li>
-                            <li><b>Palestra de abertura</b><br /> LanÃ§amento do Edital<br /> Local: AuditÃ³rio<br /><br /><b>InÃ­cio</b> das inscriÃ§Ãµes atravÃ©s do site</li>
+                            <li><b>Palestra de abertura</b><br /> Lançamento do Edital<br /> Local: Auditório<br /><br /><b>Início</b> das inscrições através do site</li>
                         </ul>
                     </li>
                     
@@ -33,7 +33,7 @@
                     <li data-sr='wait 0.5s, hustle 5%'>
                         <ul>
                             <li><span>27</span><br /> de Julho</li>
-                            <li><b>Prazo Final</b> das inscriÃ§Ãµes</li>
+                            <li><b>Prazo Final</b> das inscrições</li>
                         </ul>
                     </li>
                     
@@ -47,14 +47,14 @@
                     <li data-sr='wait 1s, hustle 5%'>
                         <ul>
                             <li><span>06</span><br /> de Outubro</li>
-                            <li><b>ApresentaÃ§Ã£o</b> dos 10 melhores projetos no SEMIC.</li>
+                            <li><b>Apresentação</b> dos 10 melhores projetos no SEMIC.</li>
                         </ul>
                     </li>
                     
                     <li data-sr='wait 1.2s, hustle 5%'>
                         <ul>
                             <li><span>07</span><br /> de Outubro</li>
-                            <li><b>ApresentaÃ§Ã£o</b> dos 10 melhores projetos no SEMIC.</li>
+                            <li><b>Apresentação</b> dos 10 melhores projetos no SEMIC.</li>
                         </ul>
                     </li>
                     

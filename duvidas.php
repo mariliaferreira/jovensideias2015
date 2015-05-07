@@ -13,9 +13,9 @@
         ?>
         
         <article data-sr='hustle 5%' class="faq">
-            <h2>DÃºvidas</h2>
+            <h2>Dúvidas</h2>
             
-            <h3>InscriÃ§Ãµes</h3>
+            <h3>Inscrições</h3>
             
             <ul>
                 <li>

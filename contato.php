@@ -16,13 +16,13 @@
             <h2>Contato</h2>
             
             <ul>
-                <li><b>CoordenaÃ§Ã£o da IniciaÃ§Ã£o CientÃ­fica</b></li>
+                <li><b>Coordenação da Iniciação Científica</b></li>
                 <li>pibicpr@pucpr.br</li>
                 <li>55 (41) 3271-2112 | 3271-1602</li>
-                <li>Rua Imaculada ConceiÃ§Ã£o, 1155</li>
-                <li>PrÃ©dio Administrativo - 6Âº Andar CÃ¢mpus Curitiba</li>
+                <li>Rua Imaculada Conceição, 1155</li>
+                <li>Prédio Administrativo - 6º Andar Câmpus Curitiba</li>
                 <li>Bairro Prado Velho - CEP 80215-901</li>
-                <li>Curitiba - ParanÃ¡ - Brasil</li>
+                <li>Curitiba - Paraná - Brasil</li>
             </ul>
         
         </article>

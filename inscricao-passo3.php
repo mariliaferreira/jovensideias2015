@@ -13,13 +13,13 @@
         ?>
         
         <article>
-            <h2>InscriÃ§Ã£o</h2>        
+            <h2>Inscrição</h2>        
             <div class="inscricao">
                 <ul>
                     <li><a href="inscricao.php">Categoria</a></li>
                     <li><a href="inscricao-passo2.php">Sobre o Projeto</a></li>
                     <li class="active"><a href="inscricao-passo3.php">Equipe</a></li>
-                    <li><a href="">Confirmar</a></li>
+                    <li><a href="inscricao-passo4.php">Confirmar</a></li>
                 </ul>
             </div>
                 
@@ -30,7 +30,7 @@
                     <div class="dado-orientador">
                         
                         <div class="integrante">
-                            <h4>Integrante 1 (obrigatÃ³rio)</h4>
+                            <h4>Integrante 1 (obrigatório)</h4>
                             Nome <br /><input type="text" name="FirstName" value=""><br />
                             Email <br /><input type="text" name="FirstName" value=""><br />
                             Telefone <br /><input type="text" name="FirstName" value=""><br />
@@ -50,10 +50,10 @@
                             <br />
                             
 
-                            InstituiÃ§Ã£o <br /><input type="text" name="FirstName" value=""><br />
-                            Curso (GraduaÃ§Ã£o, PÃ³s-GraduaÃ§Ã£o ou EspecializaÃ§Ã£o) <br /><input type="text" name="FirstName" value=""><br />
-                            PerÃ­odo <br /><input type="text" name="FirstName" value=""><br />
-                            Comprovante de MatrÃ­cula (anexar) <br /><input type="text" name="FirstName" value=""><br />
+                            Instituição <br /><input type="text" name="FirstName" value=""><br />
+                            Curso (Graduação, Pós-Graduação ou Especialização) <br /><input type="text" name="FirstName" value=""><br />
+                            Período <br /><input type="text" name="FirstName" value=""><br />
+                            Comprovante de Matrícula (anexar) <br /><input type="text" name="FirstName" value=""><br />
                         
                         
                             
@@ -66,7 +66,7 @@
                 
                     <div class="nav-form">
                         <button>Voltar</button>
-                        <button>PrÃ³ximo</button>
+                        <button>Próximo</button>
                     </div>
                 </div>            
         </article>
