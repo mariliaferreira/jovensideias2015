@@ -12,14 +12,14 @@
         require('componentes/nav.php');
         ?>
         
-        <article>
+        <article data-sr='hustle 5%'>
             <h2>Inscrição</h2>        
             <div class="inscricao">
                 <ul>
-                    <li class="active"><a href="inscricao.php">Categoria</a></li>
-                    <li><a href="inscricao-passo2.php">Sobre o Projeto</a></li>
-                    <li><a href="inscricao-passo3.php">Equipe</a></li>
-                    <li><a href="">Confirmar</a></li>
+                    <li class="active"><a href="">Categoria</a></li>
+                    <li>Sobre o Projeto</li>
+                    <li>3</li>
+                    <li>4</li>
                 </ul>
             </div>
                 
@@ -40,10 +40,8 @@
                         </li>
                     </ul>
                     
-                    <div class="nav-form">
-                        <button>Próximo</button>
-                    </div>
-                    
+                    <button>Anterior</button>
+                    <button>Próximo</button>
                     
                 </div>            
         </article>

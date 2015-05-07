@@ -332,13 +332,114 @@ footer {
 
 .inscricao {
   width: 100%;
-  height: 100%;
-  background-color: cadetblue; }
-  .inscricao div div {
-    float: left;
-    background-color: pink;
+  height: 100%; }
+  .inscricao ul {
+    list-style: none;
+    margin-top: 50px; }
+  .inscricao ul li {
+    display: inline;
     width: 20%;
     padding: 30px 2.5% 30px 2.5%;
+    text-align: center;
+    list-style: none; }
+    .inscricao ul li a {
+      text-decoration: none;
+      color: #c9c9c9; }
+
+.active {
+  background-color: #f0f0f0;
+  font-weight: bold; }
+  .active a {
+    color: #c4373d; }
+
+.dados-inscricao-2 {
+  background-color: #f0f0f0;
+  padding: 20px 50px;
+  margin-left: 40px; }
+
+.dado-orientador input {
+  width: 60%;
+  padding: 6px 8px;
+  color: #404040;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 10px; }
+.dado-orientador select {
+  width: 60%;
+  padding: 6px 8px;
+  color: #404040;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 10px; }
+
+.integrante {
+  width: 60%;
+  border: 1px solid #c7c7c7;
+  background-color: #f9f9f9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  padding: 40px 40px 40px 40px; }
+  .integrante input {
+    width: 95%; }
+  .integrante button {
+    margin: 0 auto;
     text-align: center; }
+
+.input-campo {
+  width: 60%;
+  padding: 10px 8px;
+  color: #404040;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9; }
+
+.dados-inscricao-1 {
+  margin-top: -20px; }
+  .dados-inscricao-1 ul {
+    list-style: none;
+    display: block; }
+  .dados-inscricao-1 span {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .dados-inscricao-1 ul li {
+    padding: 20px 50px;
+    background-color: #f0f0f0;
+    color: #272727; }
+    .dados-inscricao-1 ul li input + label {
+      padding: 8px; }
+    .dados-inscricao-1 ul li input:checked + label {
+      background-color: #e3fad3; }
+  .dados-inscricao-1 ul li:first-child {
+    padding-top: 50px; }
+
+.nav-form {
+  overflow: hidden; }
+  .nav-form button:first-child {
+    background-color: darkgray;
+    padding: 10px 30px;
+    float: left;
+    border: none; }
+  .nav-form button:last-child {
+    background-color: darkred;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    float: right; }
+
+.add-integrante {
+  margin: 20px 0; }
 
 /*# sourceMappingURL=estilo.css.map */
