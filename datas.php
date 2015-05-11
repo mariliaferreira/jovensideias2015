@@ -25,7 +25,7 @@
                     <li data-sr='hustle 5%'>
                         <ul>
                             <li><span>12</span><br /> de Maio</li>
-                            <li><b>Palestra de abertura</b><br /> Lançamento do Edital<br /> Local: Auditório<br /><br /><b>Início</b> das inscrições através do site</li>
+                            <li><b>Lançamento do Edital</b></li>
                         </ul>
                     </li>
                     

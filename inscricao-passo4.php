@@ -25,14 +25,13 @@
                 
                 <div class="dados-inscricao-2">                           
                     
-                <section>
-                    
-                    <div>
-                       
-                        <input type="checkbox" name="vehicle" value="Bike"> Afirmo que as informações que utilizei no formulário são verdadeiras e concordo sumaria e plenamente com o disposto no Regulamento do Concurso Jovens Ideias 2015<br /><br />
+                    <section>
+                        <div>
 
-                    </div>
-		          </section>
+                            <input type="checkbox" name="vehicle" value="Bike"> Afirmo que as informações que utilizei no formulário são verdadeiras e concordo sumaria e plenamente com o disposto no Regulamento do Concurso Jovens Ideias 2015<br /><br />
+
+                        </div>
+                    </section>
 
                     
                     

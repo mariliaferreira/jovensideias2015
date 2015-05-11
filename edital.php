@@ -12,7 +12,7 @@
         require('componentes/nav.php');
         ?>
         
-        <article data-sr='hustle 5%'>
+        <article data-sr='hustle 5%' class="edital">
             <h2>Edital</h2>
             
             <ul>
