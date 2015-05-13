@@ -5,7 +5,7 @@
     require('componentes/cab.php');
 ?>
 	
-	
+	<!--Pagina home -->
     <body>
         
     <div class="container">
