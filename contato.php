@@ -16,13 +16,10 @@
             <h2>Contato</h2>
             
             <ul>
-                <li><b>CoordenaÁ„o da IniciaÁ„o CientÌfica</b></li>
-                <li>pibicpr@pucpr.br</li>
-                <li>55 (41) 3271-2112 | 3271-1602</li>
-                <li>Rua Imaculada ConceiÁ„o, 1155</li>
-                <li>PrÈdio Administrativo - 6∫ Andar C‚mpus Curitiba</li>
-                <li>Bairro Prado Velho - CEP 80215-901</li>
-                <li>Curitiba - Paran· - Brasil</li>
+                <li>jovensideias@pucpr.br</li>
+                <li>+55 (41) 3271-2112   |   3271-1602   |   3271-1165</li>
+                <li>Pontif√≠cia Universidade Cat√≥lica do Paran√°</li>
+                <li>Coordena√ß√£o de Inicia√ß√£o Cient√≠fica</li>
             </ul>
         
         </article>

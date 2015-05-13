@@ -13,7 +13,7 @@
         ?>
         
         <article>
-            <h2>Inscrição</h2>        
+            <h2>InscriÃ§Ã£o</h2>        
             <div class="inscricao">
                 <ul>
                     <li><a href="inscricao.php">Categoria</a></li>
@@ -42,21 +42,21 @@
 
                         <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> TCC <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Dissertação <br />
+                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> DissertaÃ§Ã£o <br />
 
                         <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Tese <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Outro (Olimpíada de Matemática, de Ciências, etc). <br />
+                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Outro (OlimpÃ­ada de MatemÃ¡tica, de CiÃªncias, etc). <br />
                         <input type="text" placeholder="Qual?" class="input-campo"/> <br />
 
                     </div>
 		</section>
 
 		<section>
-			<h3>Preencha as informações sobre o projeto:</h3>
+			<h3>Preencha as informaÃ§Ãµes sobre o projeto:</h3>
             <div class="dado-orientador">
             
-			Título do Projeto <br /><input type="text" name="FirstName" value=""><br /><br />
+			TÃ­tulo do Projeto <br /><input type="text" name="FirstName" value=""><br /><br />
 			PDF do Projeto (anexar) <br /><input type="text" name="FirstName" value=""><br /><br />
 			Link do video <br /><input type="text" name="FirstName" value=""><br /><br />
             </div>
@@ -65,7 +65,7 @@
                     
                     <div class="nav-form">
                         <button>Voltar</button>
-                        <button>Próximo</button>
+                        <button>PrÃ³ximo</button>
                     </div>
                 </div>            
         </article>

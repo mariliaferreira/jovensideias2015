@@ -17,11 +17,11 @@
         <div class="nome-concurso" data-sr='hustle 10%'>
             <span>Concurso<br /></span>
             <span>PUC<br /> Jovens<br /> Ideias<br /> 2015</span><br />
-            <span>Inscrições de 1 à 30 de Junho.</span>
+            <span>InscriÃ§Ãµes de 1 Ã  30 de Junho.</span>
         </div>
         
         <div class="tema-concurso" data-sr='hustle 10%'>
-            <span>O que você criaria se não tivesse medo?</span>
+            <span>O que vocÃª criaria se nÃ£o tivesse medo?</span>
             <br /><br /><br /><a href="sobre.php" class="botao-call-action">Descubra como participar <i class="fa fa-angle-right"></i></a>
         </div>
         

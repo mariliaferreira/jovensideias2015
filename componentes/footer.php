@@ -515,12 +515,12 @@
 			c-0.391,0.846-0.912,1.368-1.695,1.563C145.87,153.135,145.023,153.07,144.046,152.68z"/>
 	</g>
 </g>
-</svg>
+</svg> 
             
             <ul>
-                <li>PontifÌcia Universidade CatÛlica do Paran·</li>
-                <li>CoordenaÁ„o de IniciaÁ„o CientÌfica</li>
-                <li>+55 (41) 3271-2112</li>
-                <li>pibicpr@pucpr.br</li>
+                <li>Pontif√≠cia Universidade Cat√≥lica do Paran√°</li>
+                <li>Coordena√ß√£o de Inicia√ß√£o Cient√≠fica</li>
+                <li>+55 (41) 3271-2112   |   3271-1602   |   3271-1165</li>
+                <li>jovensideias@pucpr.br</li>
             </ul>
         </footer>

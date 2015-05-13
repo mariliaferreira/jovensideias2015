@@ -13,7 +13,7 @@
         ?>
         
         <article>
-            <h2>EdiÁıes Anteriores</h2>
+            <h2>Edi√ß√µes Anteriores</h2>
             
             <section>
                 <h4>2014</h4>
@@ -25,14 +25,14 @@
                         <img src="img/projeto-bruno-bebedouro.jpg" />
                     </div>
                     <div>
-                        <h4>Bebedouro P˙blico</h4>
+                        <h4>Bebedouro P√∫blico</h4>
                         <br />
                         <span><i class="fa fa-trophy"></i> 1o lugar Jovens Ideias</span>
                         <div class="equipe">
                              
-                            Bruno Spanevello Perguer (UFMG)
+                            Bruno Spanevello Perguer (UFSM)
                         </div>
-                        <p>"O concurso PUC Jovens Ideias 2014 foi uma Ûtima oportunidade de expÙr meu projeto em um espaÁo de grande circulaÁ„o e visibilidade. A exposiÁ„o dos projetos selecionados teve uma boa repercuss„o na mÌdia e assim as ideias chegaram ‡ mais pessoas alÈm do p˙blico do evento e da universidade. Levar meu produto, o nome da minha universidade e meu curso (Desenho Industrial - UFSM) atÈ Curitiba e receber uma apreciaÁ„o t„o boa pelo meu trabalho foi incrÌvel. Poder conviver com os autores das outras ideias e conhecer o que eles fazem teve tambÈm um grande valor profissional e de vivÍncia. Este ano (2015) estamos em busca de interessados em apostar na ideia do produto e quem sabe iniciar a produÁ„o industrial do Bebedouro P˙blico, vencedor do concurso, beneficiando pessoas em diferentes espaÁos p˙blicos com uma fornecimento p˙blico de ·gua adequado."</p>
+                        <p>"O concurso PUC Jovens Ideias 2014 foi uma √≥tima oportunidade de exp√¥r meu projeto em um espa√ßo de grande circula√ß√£o e visibilidade. A exposi√ß√£o dos projetos selecionados teve uma boa repercuss√£o na m√≠dia e assim as ideias chegaram √† mais pessoas al√©m do p√∫blico do evento e da universidade. Levar meu produto, o nome da minha universidade e meu curso (Desenho Industrial - UFSM) at√© Curitiba e receber uma aprecia√ß√£o t√£o boa pelo meu trabalho foi incr√≠vel. Poder conviver com os autores das outras ideias e conhecer o que eles fazem teve tamb√©m um grande valor profissional e de viv√™ncia. Este ano (2015) estamos em busca de interessados em apostar na ideia do produto e quem sabe iniciar a produ√ß√£o industrial do Bebedouro P√∫blico, vencedor do concurso, beneficiando pessoas em diferentes espa√ßos p√∫blicos com uma fornecimento p√∫blico de √°gua adequado."</p>
                         
                     </div>
                 </section>
@@ -48,7 +48,7 @@
                         <div class="equipe">
                              Victor Hugo do Valle Ribeiro (PUCPR)
                         </div>
-                        <p>"Pra mim foi muito gratificante, foi minha primeira tentativa de entrar em um concurso e j· rendendo frutos. AlÈm de me dar uma motivaÁ„o para entrar em outros, vendo que deveria ter feito isto j· no comeÁo da faculdade, pois mesmo que talvez n„o esteja confiante com um certo projeto, È um orgulho muito grande ver ele ir para frente seja passando etapas ou na premiaÁ„o."</p>
+                        <p>"Pra mim foi muito gratificante, foi minha primeira tentativa de entrar em um concurso e j√° rendendo frutos. Al√©m de me dar uma motiva√ß√£o para entrar em outros, vendo que deveria ter feito isto j√° no come√ßo da faculdade, pois mesmo que talvez n√£o esteja confiante com um certo projeto, √© um orgulho muito grande ver ele ir para frente seja passando etapas ou na premia√ß√£o."</p>
                         
                     </div>
                 </section>
@@ -60,15 +60,15 @@
                     <div>
                         <h4>26Plex investigator</h4>
                         <br />
-                        <span><i class="fa fa-trophy"></i> 1o lugar EspaÁo Pesquisar È Evoluir</span>
+                        <span><i class="fa fa-trophy"></i> 1o lugar Espa√ßo Pesquisar √© Evoluir</span>
                         <div class="equipe">
-                                TamÌris F·tima Correia (PUCPR)<br />
+                                Tam√≠ris F√°tima Correia (PUCPR)<br />
                                 Vanessa Santos Sotomaior(PUCPR)<br />
                                 Marcelo Malaghini(PUCPR)
                         </div>
-                        <p>"Foi contagiante e maravilhoso participar de um evento com tamanha diversidade de ideias, e mostrar para a comunidade que mesmo para pequenos detalhes existe sempre alguÈm interessado em melhorar a qualidade de vida das pessoas com alguma criaÁ„o ou adaptaÁ„o.</p>
+                        <p>"Foi contagiante e maravilhoso participar de um evento com tamanha diversidade de ideias e mostrar para a comunidade que mesmo para pequenos detalhes existe sempre algu√©m interessado em melhorar a qualidade de vida das pessoas com alguma cria√ß√£o ou adapta√ß√£o.</p>
                         
-                        <p>O prÛximo passo È contribuir com a comunidade cientÌfica, publicando as bases de dados gerados no projeto. AlÈm de conseguir meios para que possa ser implementado comercialmente nosso produto, dessa forma, auxiliando as an·lises de vÌnculo genÈtico em diferentes laboratÛrios no paÌs."</p>
+                        <p>O pr√≥ximo passo √© contribuir com a comunidade cient√≠fica, publicando as bases de dados gerados no projeto. Al√©m de conseguir meios para que possa ser implementado comercialmente nosso produto, dessa forma, auxiliando as an√°lises de v√≠nculo gen√©tico em diferentes laborat√≥rios no pa√≠s."</p>
                         
                     </div>
                 </section>
@@ -79,17 +79,17 @@
                         <img src="img/projeto-harry-kit-monitoramento.jpg" />
                     </div>
                     <div>
-                        <h4>Kit de Monitoramento Participativo da Qualidade das ¡guas de Rios Urbanos</h4>
+                        <h4>Kit de Monitoramento Participativo da Qualidade das √Åguas de Rios Urbanos</h4>
                         <br />
-                        <span><i class="fa fa-trophy"></i> 3o lugar EspaÁo Pesquisar È Evoluir</span>
+                        <span><i class="fa fa-trophy"></i> 3o lugar Espa√ßo Pesquisar √© Evoluir</span>
                         <div class="equipe">
                             <b>Equipe:</b><br /> 
                             Nicole Santos Accioly Rodrigues da Costa (PUCPR)<br />
                              Harry Alberto Bollmann (PUCPR)
                         </div>
-                        <p>"O processo de desenvolvimento do kit de monitoramento ambiental est· sendo bastante construtivo. O conhecimento de como que funciona uma Startup, seus mecanismos de exposiÁ„o e avaliaÁ„o das ideias e a press„o para que tudo seja feito da melhor maneira possÌvel fizeram com que o produto fosse desenvolvido sob um ponto de vista pr·tico e empresarial. Isso resultou em uma melhora, n„o somente no produto final, mas tambÈm na maneira com que a equipe orientou seus trabalhos.</p>
+                        <p>"O processo de desenvolvimento do kit de monitoramento ambiental est√° sendo bastante construtivo. O conhecimento de como que funciona uma Startup, seus mecanismos de exposi√ß√£o e avalia√ß√£o das ideias e a press√£o para que tudo seja feito da melhor maneira poss√≠vel fizeram com que o produto fosse desenvolvido sob um ponto de vista pr√°tico e empresarial. Isso resultou em uma melhora, n√£o somente no produto final, mas tamb√©m na maneira com que a equipe orientou seus trabalhos.</p>
                     
-                        <p>O protÛtipo desenvolvido est· em fase de aplicaÁ„o para validaÁ„o dos resultados. Ao final desta etapa de validaÁ„o, que ocorrer· no prÛximo mÍs de agosto, iremos iniciar o processo de design do produto para a sua produÁ„o e comercializaÁ„o."</p>
+                        <p>O prot√≥tipo desenvolvido est√° em fase de aplica√ß√£o para valida√ß√£o dos resultados. Ao final desta etapa de valida√ß√£o, que ocorrer√° no pr√≥ximo m√™s de agosto, iremos iniciar o processo de design do produto para a sua produ√ß√£o e comercializa√ß√£o."</p>
                         
                         
                     </div>
@@ -108,13 +108,11 @@
                     <div>
                         <h4>Aplicativo mobile para biblioteca PUCPR</h4>
                         <br />
-                        <span><i class="fa fa-trophy"></i> EspaÁo Pesquisar È Evoluir</span>
+                        <span><i class="fa fa-trophy"></i> Espa√ßo Pesquisar √© Evoluir</span>
                         <div class="equipe">
-                            <b>Equipe:</b><br /> 
-                            Nicole Santos Accioly Rodrigues da Costa (PUCPR)<br />
-                             Harry Alberto Bollmann (PUCPR)
+                            Marina Taverna
                         </div>
-                        <p>Aplicativo mobile que facilita o acesso ao acervo de livros da biblioteca PUCPR. A estudante Marina Siqueira Taverna (PUCPR) criou em 2013 um aplicativo de localizaÁ„o de livros na biblioteca fÌsica, reserva e renivaÁ„o de materiais.</p>
+                        <p>Aplicativo mobile que facilita o acesso ao acervo de livros da biblioteca PUCPR. A estudante Marina Siqueira Taverna (PUCPR) criou em 2013 um aplicativo de localiza√ß√£o de livros na biblioteca f√≠sica, reserva e renova√ß√£o de materiais.</p>
                         
                         
                     </div>
@@ -131,9 +129,9 @@
                         <div class="equipe">
                             <b>Equipe:</b><br /> 
                             Matheus Tomio<br />
-                            Tuanny BonafÈ
+                            Tuanny Bonaf√©
                         </div>
-                        <p>Dispositivo que se acopla ao banco traseiro do veÌculo e se transforma em uma cadeirinha capaz de suprir as necessidades exigidas por lei, como se transformar em bebÍ conforto, cadeirinha de seguranÁa e assento de elevaÁ„o. AlÈm disso, o aparelho ainda se transforma em um carrinho para ser usado na locomoÁ„o fora do veÌculo, trazendo seguranÁa, conforto e economia. Com os elevados custos de cadeirinhas e carrinhos, o desconforto para instalar e desinstalar em veÌculos e a falta de uma inovaÁ„o nesse campo que permita melhorar a qualidade de vida e trazer maior conforto aos pais e tambÈm aos filhos, desenvolveu-se um dispositivo de baixo custo, f·cil instalaÁ„o e uso e seguro.</p>
+                        <p>Dispositivo que se acopla ao banco traseiro do ve√≠culo e se transforma em uma cadeirinha capaz de suprir as necessidades exigidas por lei, como se transformar em beb√™ conforto, cadeirinha de seguran√ßa e assento de eleva√ß√£o. Al√©m disso, o aparelho ainda se transforma em um carrinho para ser usado na locomo√ß√£o fora do ve√≠culo, trazendo seguran√ßa, conforto e economia. Com os elevados custos de cadeirinhas e carrinhos, o desconforto para instalar e desinstalar em ve√≠culos e a falta de uma inova√ß√£o nesse campo que permita melhorar a qualidade de vida e trazer maior conforto aos pais e tamb√©m aos filhos, desenvolveu-se um dispositivo de baixo custo, f√°cil instala√ß√£o e uso e seguro.</p>
                         
                         <section class="video">
                             <iframe width="430" height="242" src="https://www.youtube.com/embed/_3KMnxBtVqo?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -154,13 +152,13 @@
                         <img src="img/tomio.jpg" />
                     </div>
                     <div>
-                        <h4>BebÍ ‡ bordo</h4>
+                        <h4>Beb√™ √† bordo</h4>
                         <br />
                         <span><i class="fa fa-trophy"></i> Jovens Ideias</span>
                         <div class="equipe">
                             Matheus Tomio
                         </div>
-                        <p>ProduÁ„o de um dispositivo de seguranÁa semelhante ‡ uma pulseira que vibra e emita um sinal sonoro quando a crianÁa ultrapassar um raio de 10 metros dos seus pais. A tecnologia envolvida inicia-se com Bluetooth passando ao sinal Wi-Fi e, futuramente, aos GPS. A pulseira È fixada com im„, o que permite fixaÁ„o em pulsos de tamanhos diferentes. No desenvolvimento do modelo simples, a tecnologia Bluetooth torna-se completamente capaz. J· o modelo mais sofisticado acompanha aplicativo para Mobile e rastreio via GPS.</p>
+                        <p>Produ√ß√£o de um dispositivo de seguran√ßa semelhante √† uma pulseira que vibra e emita um sinal sonoro quando a crian√ßa ultrapassar um raio de 10 metros dos seus pais. A tecnologia envolvida inicia-se com Bluetooth passando ao sinal Wi-Fi e, futuramente, aos GPS. A pulseira √© fixada com im√£, o que permite fixa√ß√£o em pulsos de tamanhos diferentes. No desenvolvimento do modelo simples, a tecnologia Bluetooth torna-se completamente capaz. J√° o modelo mais sofisticado acompanha aplicativo para Mobile e rastreio via GPS.</p>
                         
                         <section class="video">
                             <iframe width="430" height="242"  src="https://www.youtube.com/embed/x-BGGlWWHoY" frameborder="0" allowfullscreen></iframe>

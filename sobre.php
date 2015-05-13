@@ -26,8 +26,8 @@
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
-                <p>O PUC Jovens Ideias premia os melhores projetos inscritos no concurso. Por melhores, nós queremos dizer.
-                    Atrair estudantes inventivos e empreendedores dispostos a compartilhar suas ideias com a comunidade acadêmica, dando abertura para a criatividade, a inovação e o fator empreendedor da proposta;
+                <p>O PUC Jovens Ideias premia os melhores projetos inscritos no concurso. Por melhores, nÃ³s queremos dizer.
+                    Atrair estudantes inventivos e empreendedores dispostos a compartilhar suas ideias com a comunidade acadÃªmica, dando abertura para a criatividade, a inovaÃ§Ã£o e o fator empreendedor da proposta;
                 </p>
                 <ul>
                     <li>projeto inovador;</li>
@@ -43,9 +43,9 @@
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
                 <ul>
-                    <li>alunos de graduação de IES brasileiras(Instituições de Ensino Superior)</li>
-                    <li>alunos de pós-graduação de IES brasileiras</li>
-                    <li>alunos de colégios credenciados ao PIBIC JR da PUCPR</li>
+                    <li>alunos de graduaÃ§Ã£o de IES brasileiras(InstituiÃ§Ãµes de Ensino Superior)</li>
+                    <li>alunos de pÃ³s-graduaÃ§Ã£o de IES brasileiras</li>
+                    <li>alunos de colÃ©gios credenciados ao PIBIC JR da PUCPR</li>
                 </ul>
             </div>
             
@@ -55,7 +55,7 @@
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
-                <p>Para saber todos os detalhes, leia com atenção o <a href="">edital</a> oficial do concurso.</p>
+                <p>Para saber todos os detalhes, leia com atenÃ§Ã£o o <a href="">edital</a> oficial do concurso.</p>
             </div>
             
             <div class="card">
@@ -67,32 +67,32 @@
                 <p>O projeto pode ser:</p>
                 <ul>
                     <li>criado especificamente para o concurso;</li>
-                    <li>pode ser um projeto já existente (TCC, tese...);</li>
+                    <li>pode ser um projeto jÃ¡ existente (TCC, tese...);</li>
                 </ul>
             </div>
             
             <div class="card">
                 <div class="bg-sticker">
-                    <h3>Categorias de Inscrição</h3>
+                    <h3>Categorias de InscriÃ§Ã£o</h3>
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
                 <ul>
-                    <li>PUC Jovens Ideias (alunos de graduação ou pós-graduação com projetos sem orientador);</li>
-                    <li>Espaço Pesquisar é Evoluir (alunos de graduação ou pós-graduação com projetos que possuem orientação ou mentoria);</li>
-                    <li>PUC Jovens Ideias Jr (alunos de ensino médio de colégios cadastrados ao PIBIC Jr)</li>
+                    <li>PUC Jovens Ideias (alunos de graduaÃ§Ã£o ou pÃ³s-graduaÃ§Ã£o com projetos sem orientador);</li>
+                    <li>EspaÃ§o Pesquisar Ã© Evoluir (alunos de graduaÃ§Ã£o ou pÃ³s-graduaÃ§Ã£o com projetos que possuem orientaÃ§Ã£o ou mentoria);</li>
+                    <li>PUC Jovens Ideias Jr (alunos de ensino mÃ©dio de colÃ©gios cadastrados ao PIBIC Jr)</li>
                 </ul>
             </div>
             
             <div class="card">
                 <div class="bg-sticker">
-                    <h3>O que eu preciso na hora da inscrição?</h3>
+                    <h3>O que eu preciso na hora da inscriÃ§Ã£o?</h3>
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
                 <ul>
                     <li>PDF do projeto (veja <a href="">como elaborar este documento</a> no edital)</li>
-                    <li>um vídeo explicativo</li>
+                    <li>um vÃ­deo explicativo</li>
                     <li>seus dados pessoas e de sua equipe</li>
                 </ul>
             </div>
@@ -104,7 +104,7 @@
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
                 <p>Aqui neste website:</p>
-                <a href="">Fazer inscrição</a>
+                <a href="">Fazer inscriÃ§Ã£o</a>
             </div>
             
             <div style="clear: both;"></div>

@@ -13,7 +13,7 @@
         ?>
         
         <article>
-            <h2>InscriÁ„o</h2>        
+            <h2>Inscri√ß√£o</h2>        
             <div class="inscricao">
                 <ul>
                     <li><a href="inscricao.php">Categoria</a></li>
@@ -28,7 +28,7 @@
                     <section>
                         <div>
 
-                            <input type="checkbox" name="vehicle" value="Bike"> Afirmo que as informaÁıes que utilizei no formul·rio s„o verdadeiras e concordo sumaria e plenamente com o disposto no Regulamento do Concurso Jovens Ideias 2015<br /><br />
+                            <input type="checkbox" name="vehicle" value="Bike"> Afirmo que as informa√ß√µes que utilizei no formul√°rio s√£o verdadeiras e concordo sumaria e plenamente com o disposto no Regulamento do Concurso Jovens Ideias 2015<br /><br />
 
                         </div>
                     </section>
@@ -37,7 +37,7 @@
                     
                     <div class="nav-form">
                         <button>Voltar</button>
-                        <button>Finalizar InscriÁ„o</button>
+                        <button>Finalizar Inscri√ß√£o</button>
                     </div>
                 </div>            
         </article>
