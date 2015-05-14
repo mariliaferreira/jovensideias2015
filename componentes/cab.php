@@ -2,9 +2,7 @@
         require('componentes/force-utf8.php');
     ?>
 
-<head>
-    
-        
+<head>        
         <title>PUC Jovens Ideias 2015</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="scss/estilo.css">
@@ -21,17 +19,21 @@
 			   if (st > lastScrollTop){
 			   		$($("nav")).removeClass("navigation-up")
 			   		$($("nav")).addClass("navigation-down")
+//                    $($("#barra_institucional")).removeClass("navigation-up2")
+//			   		$($("#barra_institucional")).addClass("navigation-down2")
                		
 			   } else {
 			      	$($("nav")).removeClass("navigation-down")
 			      	$($("nav")).addClass("navigation-up")
+//                    $($("#barra_institucional")).removeClass("navigation-down2")
+//			      	$($("#barra_institucional")).addClass("navigation-up2")
 			   }
 			   lastScrollTop = st;
 			});
 	    </script>
     
     <style>
-		
+        
 		.navigation-up{
 			position: fixed;
 			margin-top: 0;
@@ -42,6 +44,24 @@
 		}
 
 		.navigation-down{
+			position: absolute;
+            margin-top: -80px;
+			-moz-transition: all .1s ease-in;
+		    -o-transition: all .1s ease-in;
+		    -webkit-transition: all .1s ease-in;
+		    transition: all .1s ease-in;
+		}
+        
+        .navigation-up2{
+			position: fixed;
+			margin-top: 0;
+			-moz-transition: all .1s ease-in;
+		    -o-transition: all .1s ease-in;
+		    -webkit-transition: all .1s ease-in;
+		    transition: all .1s ease-in;
+		}
+
+		.navigation-down2{
 			position: absolute;
             margin-top: -80px;
 			-moz-transition: all .1s ease-in;

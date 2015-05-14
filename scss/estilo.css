@@ -60,9 +60,9 @@ nav {
   margin-top: 0;
   position: absolute;
   width: 100%;
-  height: 80px;
+  height: 70px;
   left: 0;
-  top: 0;
+  top: 60px;
   background: -webkit-linear-gradient(90deg, #c4373d 10%, #c43762 90%);
   /* Chrome 10+, Saf5.1+ */
   background: -moz-linear-gradient(90deg, #c4373d 10%, #c43762 90%);
@@ -77,7 +77,7 @@ nav {
     font-family: "proxima_novaregular", sans-serif;
     font-size: 0.8em;
     letter-spacing: 2px;
-    margin-top: 2.5%;
+    margin-top: 2%;
     text-align: center; }
     nav ul li {
       display: inline;
@@ -297,7 +297,7 @@ footer {
   border-radius: 5px;
   box-shadow: 2px 2px 2px #aaaaaa; }
   .card h3, .card p, .card ul {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 5px 10px 10px;
     list-style: none;
     color: #464646;
     margin: 0;
@@ -330,6 +330,8 @@ footer {
   .sticker-card i {
     color: #fff;
     padding: 25%; }
+  .sticker-card ul {
+    margin-top: -20px; }
 
 .bg-sticker {
   width: 100%;
@@ -499,5 +501,74 @@ footer {
   .video iframe {
     float: left;
     margin-right: 5%; }
+
+/* --------------------------- */
+/* BARRA INSTITUCIONAL - PUCPR */
+/* --------------------------- */
+/* Barra Institucional ------- */
+div#barra_institucional {
+  height: 60px;
+  background: url(../img/bk_barra_puc.png) repeat-x;
+  overflow: hidden;
+  margin-top: -121px;
+  position: fixed;
+  width: 100%;
+  z-index: 5000; }
+
+div.logo_pucpr_topo {
+  background: url(../img/logo_puc_topo.png) no-repeat;
+  width: 160px;
+  height: 61px;
+  float: left; }
+
+div.cont_barra_inst {
+  width: 1070px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url(../img/bk_marcadagua_institucional.png) right no-repeat; }
+
+div.menu_institucional {
+  float: right; }
+
+div.menu_institucional a {
+  color: #FFF;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  margin: 33px 0 0 13px;
+  text-decoration: none; }
+
+div.menu_inst_1 {
+  background: url(../img/bk_menu_inst_1.png) no-repeat left;
+  width: 88px;
+  height: 18px;
+  padding-top: 3px;
+  text-align: center; }
+
+div.menu_inst_1:hover {
+  background-position: right;
+  color: #8c1318; }
+
+div.menu_inst_2 {
+  background: url(../img/bk_menu_inst_2.png) no-repeat left;
+  width: 83px;
+  height: 18px;
+  padding-top: 3px;
+  text-align: center; }
+
+div.menu_inst_2:hover {
+  background-position: right;
+  color: #8c1318; }
+
+div.menu_inst_3 {
+  background: url(../img/bk_menu_inst_3.png) no-repeat left;
+  width: 128px;
+  height: 18px;
+  padding-top: 3px;
+  text-align: center; }
+
+div.menu_inst_3:hover {
+  background-position: right;
+  color: #8c1318; }
 
 /*# sourceMappingURL=estilo.css.map */

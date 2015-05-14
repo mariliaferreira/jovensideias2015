@@ -26,14 +26,10 @@
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
-                <p>O PUC Jovens Ideias premia os melhores projetos inscritos no concurso. Por melhores, nós queremos dizer.
-                    Atrair estudantes inventivos e empreendedores dispostos a compartilhar suas ideias com a comunidade acadêmica, dando abertura para a criatividade, a inovação e o fator empreendedor da proposta;
-                </p>
-                <ul>
-                    <li>projeto inovador;</li>
-                    <li>boa ideia;</li>
-                    <li>pode virar uma startup;</li>
-                </ul>
+                <p>Esta é a 3a edição desse Concurso promovido pela PUCPR!
+Temos tido a oportunidade de revelar talentos e projetos interessantes para a sociedade.
+Podemos resumir o Concurso dizendo que é a oportunidade de professores e estudantes empreendedores e criativos darem visibilidade de uma proposta inovadora para a sociedade e quem sabe para investidores.
+Confira o que aconteceu nas edições anteriores e veja até onde sua ideia pode chegar!</p>
             </div>
             
             <div class="card">
@@ -42,20 +38,9 @@
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
-                <ul>
-                    <li>alunos de graduação de IES brasileiras(Instituições de Ensino Superior)</li>
-                    <li>alunos de pós-graduação de IES brasileiras</li>
-                    <li>alunos de colégios credenciados ao PIBIC JR da PUCPR</li>
-                </ul>
-            </div>
-            
-            <div class="card">
-                <div class="bg-sticker">
-                    <h3>Regras do Concurso</h3>
-                </div>
-                <div class="sticker-card"><i class="fa fa-diamond"></i></div>
-                
-                <p>Para saber todos os detalhes, leia com atenção o <a href="">edital</a> oficial do concurso.</p>
+                <p>O Concurso está aberto para todos os estudantes regularmente matriculados em Universidades de todo o Brasil e para estudantes de ensino médio matriculados nos Colégios participantes do Programa PIBIC Jr da PUCPR.
+ 
+Atenção: a participação pode ser individual ou em grupo de até 4 estudantes. A orientação de um professor é facultativa e determinará a modalidade em que você irá se inscrever.</p>
             </div>
             
             <div class="card">
@@ -64,11 +49,13 @@
                 </div>
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
-                <p>O projeto pode ser:</p>
+                <p>O projeto com característica de inovação pode ser um serviço, processo ou produto, comprometido com o desenvolvimento da sociedade. 
+                    O projeto pode :</p>
                 <ul>
-                    <li>criado especificamente para o concurso;</li>
-                    <li>pode ser um projeto já existente (TCC, tese...);</li>
-                </ul>
+                    <li>- Ser criado especificamente para o concurso;</li>
+                    <li>- Ter sido apresentado em outro concurso, exceto edições anteriores do PUC Jovens Ideias;</li>
+                    <li>- Ser um projeto já existente (TCC, PIBIC, PIBITI, monografia, dissertação de mestrado, tese de doutorado...)</li>
+                </ul>   
             </div>
             
             <div class="card">
@@ -78,33 +65,11 @@
                 <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
                 <ul>
-                    <li>PUC Jovens Ideias (alunos de graduação ou pós-graduação com projetos sem orientador);</li>
-                    <li>Espaço Pesquisar é Evoluir (alunos de graduação ou pós-graduação com projetos que possuem orientação ou mentoria);</li>
-                    <li>PUC Jovens Ideias Jr (alunos de ensino médio de colégios cadastrados ao PIBIC Jr)</li>
+                    <li>1. Jovens Ideias – se a sua proposta é uma ideia desenvolvida por você e/ou colegas, mas sem nenhuma orientação de professor da Universidade.</li>
+                    <li>2. Pesquisar é evoluir – sua proposta é decorrente de um trabalho desenvolvido na Universidade com orientação de professor.</li>
+                    <li>3. Jovens Ideias Júnior – se você é estudante de Ensino Médio de algum Colégio participante do Programa PIBIC Jr.</li>
                 </ul>
-            </div>
-            
-            <div class="card">
-                <div class="bg-sticker">
-                    <h3>O que eu preciso na hora da inscrição?</h3>
-                </div>
-                <div class="sticker-card"><i class="fa fa-diamond"></i></div>
                 
-                <ul>
-                    <li>PDF do projeto (veja <a href="">como elaborar este documento</a> no edital)</li>
-                    <li>um vídeo explicativo</li>
-                    <li>seus dados pessoas e de sua equipe</li>
-                </ul>
-            </div>
-            
-            <div class="card">
-                <div class="bg-sticker">
-                    <h3>Onde me inscrever?</h3>
-                </div>
-                <div class="sticker-card"><i class="fa fa-diamond"></i></div>
-                
-                <p>Aqui neste website:</p>
-                <a href="">Fazer inscrição</a>
             </div>
             
             <div style="clear: both;"></div>
