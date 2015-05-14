@@ -36,9 +36,13 @@ require ("db.php");
 						</li>
 					</ul>
 				</div>
-				<div class="dados-inscricao-1">
+				<div class="dados-inscricao-1" style="background-color: #f0f0f0;">
 					<!--- definir estilo --->
 					<div id="erro1" style="color: red;"><?php echo $erros;?></div>
+                    
+                    <div class="dado-orientador" style="margin-left: 90px; padding-top: 60px;">
+                        Informe seu CPF<br /> <input type="text" name="dd1" id="dd1" value="<?php echo $dd[1];?>" style="width: 150px;"><br /><br />
+                    </div>
 					
 					<ul>
 						<li>
@@ -55,12 +59,10 @@ require ("db.php");
 						</li>
 					</ul>
 					
-                    <div class="dado-orientador">
-                        Informe seu CPF<br /> <input type="text" name="dd1" id="dd1" value="<?php echo $dd[1];?>" style="width: 150px;"><br /><br />
-                    </div>					
+                    					
 					
 					<div class="nav-form">
-						<input type="submit" name="acao" id="acao" value="Próximo">
+						<input type="submit" name="acao" id="acao" value="Próximo" class="botao-prox">
 					</div>
 				</div>
 			</article>

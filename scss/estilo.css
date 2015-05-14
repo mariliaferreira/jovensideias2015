@@ -435,7 +435,7 @@ footer {
     .dados-inscricao-1 ul li input:checked + label {
       background-color: #e3fad3; }
   .dados-inscricao-1 ul li:first-child {
-    padding-top: 50px; }
+    padding-top: -20px; }
 
 .nav-form {
   overflow: hidden; }
@@ -450,6 +450,14 @@ footer {
     border: none;
     color: #fff;
     float: right; }
+
+.botao-prox {
+  background-color: darkred;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  float: right;
+  margin: 20px; }
 
 .add-integrante {
   margin: 20px 0; }

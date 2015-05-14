@@ -596,8 +596,8 @@ box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.61);
             }
             
         }
-    ul li:first-child{
-        padding-top: 50px;
+    ul li:first-child{ 
+        padding-top: -20px;
     }    
 }
 
@@ -618,6 +618,15 @@ box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.61);
         color: #fff;
         float: right;
     }
+}
+
+.botao-prox{
+    background-color: darkred;
+        padding: 10px 30px;
+        border: none;
+        color: #fff;
+        float: right;
+    margin: 20px;
 }
 
 .add-integrante{
