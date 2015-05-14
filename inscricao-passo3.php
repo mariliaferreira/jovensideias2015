@@ -1,3 +1,6 @@
+<?php
+require ("db.php");
+?>
 <!DOCTYPE html>
 <html>
 	<?php
@@ -10,6 +13,10 @@
         
         <?php
         require('componentes/nav.php');
+		
+		/* Valida formulario */
+		$pag = 3;
+		require("validar_formulario.php");		
         ?>
         
         <article>

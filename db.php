@@ -11,8 +11,8 @@ $include .= "../_include/";
 $debug = True;
 if($debug == true)
 	{
-	ini_set('display_errors', 1);
-	ini_set('error_reporting', 7);
+	ini_set('display_errors', 255);
+	ini_set('error_reporting', 255);
 	}
 $debug = false;
 //-------------------------------------- Includes Padr�es

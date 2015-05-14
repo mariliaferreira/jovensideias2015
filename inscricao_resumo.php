@@ -5,6 +5,7 @@ require ("db.php");
 <html>
 	<?php
     require('componentes/cab.php');
+	$_SESSION['proto'] = '';
 ?>
 	
     <body>
@@ -13,21 +14,13 @@ require ("db.php");
         
         <?php
         require('componentes/nav.php');
-		
-		/* Valida formulario */
-		$pag = 4;
-		require("validar_formulario.php");
-				
         ?>
-        <form action="<?php page();?>" method="post">
+        
         <article>
-            <h2>Inscrição</h2>        
+            <h2>Resumo da Inscrição</h2>        
             <div class="inscricao">
                 <ul>
-                    <li><a href="inscricao.php">Categoria</a></li>
-                    <li><a href="inscricao-passo2.php">Sobre o Projeto</a></li>
-                    <li><a href="inscricao-passo3.php">Equipe</a></li>
-                    <li class="active"><a href="inscricao-passo4.php">Confirmar</a></li>
+                    <li><a href="#">Categoria</a></li>
                 </ul>
             </div>
                 
@@ -35,8 +28,7 @@ require ("db.php");
                     
                     <section>
                         <div>
-
-                            <input type="checkbox" name="dd1" value="1"> Afirmo que as informações que utilizei no formulário são verdadeiras e concordo sumaria e plenamente com o disposto no Regulamento do Concurso Jovens Ideias 2015<br /><br />
+		                    RESUMO DO PROJETO
 
                         </div>
                     </section>
@@ -45,11 +37,10 @@ require ("db.php");
                     
                     <div class="nav-form">
                         <button>Voltar</button>
-                        <input type="submit" name="acao" id="acao" value="Finalizar Inscrição"/>
                     </div>
                 </div>            
         </article>
-        </form>   
+                
         <?php
         require('componentes/footer.php');
         ?>

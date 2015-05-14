@@ -3,14 +3,31 @@ $checked = array();
 $erros = '';
 $jid = '0000087';
 
+require_once ("_ged_submit_files.php");
+
 require ("../_include/_class_form.php");
 $form = new form;
 
 switch ($pag) {
 	case '1' :
+	/* Não foi executado acao */
 		if (strlen($acao) == 0) {
+			$proto = $_SESSION['proto'];
+			if (strlen($proto) > 0) {
+				$sql = "select * from submit_documento where doc_id = '$proto' and doc_journal_id = '$jid' ";
+				$rlt = db_query($sql);
+				if ($line = db_read($rlt)) {
+					$dd[1] = $line['doc_id'];
+					$dd[2] = $line['doc_sessao'];
+					$checked[round($dd[2])] = 'checked';
+					if ($line['doc_status'] != '@') {
+						redirecina('inscricao_resumo.php');
+					}
+				}
 
+			}
 		} else {
+			/* Acao */
 			$checked[round($dd[2])] = 'checked';
 			$ok = 1;
 			/* Regra CPD */
@@ -19,6 +36,19 @@ switch ($pag) {
 				if (strlen($erros) > 0) { $erros .= '<BR>';
 				}
 				$erros .= 'Erro, CPF inválido!';
+				$ok = 0;
+			}
+			/* Valia se já existe projeto deste CPF */
+			$cpf = sonumero($dd[1]);
+			$sql = "select * from submit_documento where doc_id = '$cpf' and doc_journal_id = '$jid' and (doc_status <> '!' and doc_status <> 'X')";
+			echo $sql;
+			$rlt = db_query($sql);
+			if ($line = db_read($rlt)) {
+				if (strlen($erros) > 0) { $erros .= '<BR>';
+				}
+				$erros .= 'Erro, Já existe um projeto subhmetido com esse CPF! ';
+				$link = '<A HREF="inscricao_resumo.php?dd0='.$cpf.'&dd1='.checkpost($cpf).'">ver resumo do projeto</A>';
+				$erros .= $link;
 				$ok = 0;
 			}
 			/* Regra tipo de modalidade */
@@ -35,7 +65,7 @@ switch ($pag) {
 				$sessao = round($dd[2]);
 				$proto = sonumero($dd[1]);
 				$_SESSION['proto'] = $proto;
-				
+
 				echo '<font color="white">';
 				$sql = "select * from submit_documento where doc_id = '$proto' and doc_journal_id = '$jid' ";
 				$rlt = db_query($sql);
@@ -45,7 +75,7 @@ switch ($pag) {
 								doc_hora = '$hora',
 								doc_sessao = $sessao
 								where doc_id = '$proto' and doc_journal_id = '$jid' ";
-								echo $sql;
+					echo $sql;
 					$rlt = db_query($sql);
 				} else {
 					$sql = "insert into submit_documento 
@@ -60,6 +90,48 @@ switch ($pag) {
 					$rlt = db_query($sql);
 				}
 				redireciona('inscricao-passo2.php');
+			}
+		}
+		break;
+	case '2' :
+		$proto = $_SESSION['proto'];
+		if (strlen($proto) == 0)
+			{
+				redirecina('inscricao.php');
+			}
+		break;			
+	case '3' :
+		$proto = $_SESSION['proto'];
+		if (strlen($proto) == 0)
+			{
+				redirecina('inscricao.php');
+			}
+		break;
+	case '4' :
+		$proto = $_SESSION['proto'];
+		if (strlen($proto) == 0)
+			{
+				redirecina('inscricao.php');
+			}
+
+		if (strlen($acao) == 0) {
+			if (strlen($proto) > 0) {
+				$sql = "select * from submit_documento where doc_id = '$proto' and doc_journal_id = '$jid' ";
+				$rlt = db_query($sql);
+				if ($line = db_read($rlt)) {
+					if ($line['doc_status'] != '@') {
+						redirecina('inscricao_resumo.php');
+					}
+				}
+
+			}
+		} else {
+			if ($dd[1] == '1') {
+				$sql = "update submit_documento set doc_status = 'A' where doc_id = '$proto' and doc_journal_id = '$jid' ";
+				$rlt = db_query($sql);
+
+				/* Enviar e-mail para equipe */
+				redirecina('inscricao_resumo.php');
 			}
 		}
 		break;
