@@ -40,13 +40,16 @@ switch ($pag) {
 			}
 			/* Valia se já existe projeto deste CPF */
 			$cpf = sonumero($dd[1]);
-			$sql = "select * from submit_documento where doc_id = '$cpf' and doc_journal_id = '$jid' and (doc_status <> '!' and doc_status <> 'X')";
-			echo $sql;
+			$sql = "select * from submit_documento 
+							where doc_id = '$cpf' 
+									and doc_journal_id = '$jid' 
+									and (doc_status <> '@' and doc_status <> 'X')";
+			
 			$rlt = db_query($sql);
 			if ($line = db_read($rlt)) {
 				if (strlen($erros) > 0) { $erros .= '<BR>';
 				}
-				$erros .= 'Erro, Já existe um projeto subhmetido com esse CPF! ';
+				$erros .= 'Erro, Já existe um projeto submetido com esse CPF! ';
 				$link = '<A HREF="inscricao_resumo.php?dd0='.$cpf.'&dd1='.checkpost($cpf).'">ver resumo do projeto</A>';
 				$erros .= $link;
 				$ok = 0;
