@@ -12,6 +12,8 @@
         <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        
         <script>
 	    	var lastScrollTop = 0;
 			$(window).scroll(function(event){
