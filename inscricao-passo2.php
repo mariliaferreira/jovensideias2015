@@ -34,27 +34,27 @@ require ("db.php");
                     
                 <section>
                     <div class="dado-orientador">
-                        Nome do Orientador<br /> <input type="text" name="FirstName" value=""><br /><br />
-                        Email do Orientador<br /> <input type="text" name="FirstName" value=""><br /><br />
+                        Nome do Orientador<br /> <input type="text" name="dd1" value="<?php echo $dd[1];?>"><br /><br />
+                        Email do Orientador<br /> <input type="text" name="dd2" value="<?php echo $dd[2];?>"><br /><br />
                     </div>
 
                     <div>
                         Qual a categoria do seu projeto?<br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibic" value="one"> PIBIC <br />
+                        <input type="radio" name="dd3" id="pibic" value="1" <?php echo $check[1];?>> PIBIC <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> PIBIC Jr <br />
+                        <input type="radio" name="dd3" id="pibicjr" value="2" <?php echo $check[2];?>> PIBIC Jr <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> PIBITI <br />
+                        <input type="radio" name="dd3" id="pibicjr" value="3" <?php echo $check[3];?>> PIBITI <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> TCC <br />
+                        <input type="radio" name="dd3" id="pibicjr" value="4" <?php echo $check[4];?>> TCC <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Dissertação <br />
+                        <input type="radio" name="dd3" id="pibicjr" value="5" <?php echo $check[5];?>> Dissertação <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Tese <br />
+                        <input type="radio" name="dd3" id="pibicjr" value="6" <?php echo $check[6];?>> Tese <br />
 
-                        <input type="radio" name="categoriaprojeto" id="pibicjr" value="one"> Outro (Olimpíada de Matemática, de Ciências, etc). <br />
-                        <input type="text" placeholder="Qual?" class="input-campo"/> <br />
+                        <input type="radio" name="dd3" id="pibicjr" value="7" <?php echo $check[7];?>> Outro (Olimpíada de Matemática, de Ciências, etc). <br />
+                        <input type="text" name="dd4" placeholder="Qual?" value="<?php echo $dd[4];?>" class="input-campo"/> <br />
 
                     </div>
 		</section>
@@ -63,16 +63,21 @@ require ("db.php");
 			<h3>Preencha as informações sobre o projeto:</h3>
             <div class="dado-orientador">
             
-			Título do Projeto <br /><input type="text" name="FirstName" value=""><br /><br />
-			PDF do Projeto (anexar) <br /><input type="text" name="FirstName" value=""><br /><br />
-			Link do video <br /><input type="text" name="FirstName" value=""><br /><br />
+			Título do Projeto <br /><textarea name="dd4" cols=80 rows=4><?php echo $dd[4];?></textarea><br /><br />
+			
+			Link do video <br /><input type="text" name="dd6" value="<?php echo $dd[6];?>"><br /><br />
+			PDF do Projeto (anexar) <br />
+			<?php
+			echo $ged->file_list();
+			echo $ged->upload_botton_with_type();
+			?>
+			<br /><br />
             </div>
 		</section>
                     
                     
                     <div class="nav-form">
-                        <button>Voltar</button>
-                        <button>Próximo</button>
+                        <input type="submit" name="acao" id="acao" value="Próximo"/>
                     </div>
                 </div>            
         </article>
