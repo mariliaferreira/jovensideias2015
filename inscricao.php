@@ -11,6 +11,11 @@ require ("db.php");
 		<div class="container">
 			<?php
 			require ('componentes/nav.php');
+			
+			/* Valida formulario */
+			$pag = 1;
+			require("validar_formulario.php");			
+			
 			?>
 			<form action="<?php page();?>" method="post">
 			<article>
@@ -33,25 +38,25 @@ require ("db.php");
 				</div>
 				<div class="dados-inscricao-1">
 					<!--- definir estilo --->
-					<div id="erro1" style="color: red;">Informe a categoria de submissão</div>
+					<div id="erro1" style="color: red;"><?php echo $erros;?></div>
 					
 					<ul>
 						<li>
-							<input type="radio" name="categoria-inscricao" id="jovens-ideias" value="one">
+							<input type="radio" name="dd2" id="dd2" value="1" <?php echo $checked[1];?>>
 							<label for="sem-orientacao"><span>PUC Jovens Ideias</span> - Sou estudante de graduação ou pós-graduação e meu projeto <strong>não tem</strong> orientação de Professor/Mentor.</label>
 						</li>
 						<li>
-							<input type="radio" name="categoria-inscricao" id="pesquisar-evoluir" value="two">
+							<input type="radio" name="dd2" id="dd2" value="2" <?php echo $checked[2];?>>
 							<label for="com-orientacao"><span>Espaço Pesquisar é Evoluir</span> - Sou estudante de graduação ou pós-graduação e meu projeto <strong>tem orientação</strong> de Professor/Mentor (TCC, PIBIC, PIBITI, monografia, dissertação de mestrado, tese de doutorado, etc).</label>
 						</li>
 						<li>
-							<input type="radio" name="categoria-inscricao" id="jovens-ideias-junior" value="three">
+							<input type="radio" name="dd2" id="dd2" value="3" <?php echo $checked[3];?>>
 							<label for="com-orientacao"><span>PUC Jovens Ideias Junior</span> - Sou estudante do <strong>Ensino Médio</strong> e meu projeto <strong>tem</strong> orientação de Professor/Mentor.</label>
 						</li>
 					</ul>
 					
                     <div class="dado-orientador">
-                        Informe seu CPF<br /> <input type="text" name="dd1" id="dd1" value="" style="width: 150px;"><br /><br />
+                        Informe seu CPF<br /> <input type="text" name="dd1" id="dd1" value="<?php echo $dd[1];?>" style="width: 150px;"><br /><br />
                     </div>					
 					
 					<div class="nav-form">
