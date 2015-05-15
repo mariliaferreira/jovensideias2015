@@ -13,38 +13,39 @@
         ?>
         
         <article class="edital">
-            <h2>EDITAL 04/2015 da PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o e AgÃªncia PUC de CiÃªncia, Tecnologia e InovaÃ§Ã£o - CONCURSO PUC JOVENS IDEIAS</h2>
+            <h2>EDITAL 04/2015 da Pró-Reitoria de Pesquisa e Pós-Graduação e Agência PUC de Ciência, Tecnologia e Inovação - CONCURSO PUC JOVENS IDEIAS</h2>
             
-            <p>A PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o da PUCPR (PRPPG) e a AgÃªncia PUC de CiÃªncia, Tecnologia e InovaÃ§Ã£o divulgam Ã  comunidade cientÃ­fica o regulamento do Concurso PUC JOVENS IDEIAS. </p>
+            <p>A Pró-Reitoria de Pesquisa e Pós-Graduação da PUCPR (PRPPG) e a Agência PUC de Ciência, Tecnologia e Inovação divulgam à comunidade científica o regulamento do Concurso PUC JOVENS IDEIAS. </p>
             <br />
-            <h4>I â€“ DISPOSIÃ‡Ã•ES PRELIMINARES</h4>
+            <h4>I - DISPOSIÇÕES PRELIMINARES</h4>
 
-            <p>Artigo 1Âº â€“ Este regulamento estabelece as bases administrativas, jurÃ­dicas e tÃ©cnicas para inscriÃ§Ã£o, participaÃ§Ã£o, seleÃ§Ã£o e premiaÃ§Ã£o do Concurso, doravante denominado PUC Jovens Ideias, com sede e foro na Cidade de Curitiba, Estado do ParanÃ¡.</p>
+            <p>Artigo 1º - Este regulamento estabelece as bases administrativas, jurídicas e técnicas para inscrição, participação, seleção e premiação do Concurso, doravante denominado PUC Jovens Ideias, com sede e foro na Cidade de Curitiba, Estado do Paraná.</p>
             <br />
-            <h4>II â€“ CARACTERIZAÃ‡ÃƒO</h4>
+            <h4>II - CARACTERIZAÇÃO</h4>
             
-            <p>Artigo 2Âº â€“ O concurso PUC Jovens Ideias Ã© promoÃ§Ã£o da PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o da PUCPR  e da AgÃªncia PUC de CiÃªncia, Tecnologia e InovaÃ§Ã£o. </p>
+            <p>Artigo 2º - O concurso PUC Jovens Ideias é promoção da Pró-Reitoria de Pesquisa e Pós-Graduação da PUCPR  e da Agência PUC de Ciência, Tecnologia e Inovação. </p>
             
-            <p>Artigo 3Âº â€“ Este concurso tem como objetivos:</p>
-                <p style="margin-left: 10%;">a)	Atrair estudantes de ensino mÃ©dio, de graduaÃ§Ã£o e de pÃ³s-graduaÃ§Ã£o inventivos e empreendedores dispostos a compartilhar suas ideias com a comunidade acadÃªmica, dando abertura para a criatividade, a inovaÃ§Ã£o e o fator empreendedor da proposta; </p>
-                <p style="margin-left: 10%;">b)	Identificar e incentivar estudantes de ensino mÃ©dio, de graduaÃ§Ã£o e de pÃ³s-graduaÃ§Ã£o que apresentam  perfil inventivo, em busca de projetos com potencial para se transformar em InovaÃ§Ã£o.</p>
+            <p>Artigo 3º - Este concurso tem como objetivos:</p>
+                <p style="margin-left: 10%;">a)	Atrair estudantes de ensino médio, de graduação e de pós-graduação inventivos e empreendedores dispostos a compartilhar suas ideias com a comunidade acadêmica, dando abertura para a criatividade, a inovação e o fator empreendedor da proposta; </p>
+                <p style="margin-left: 10%;">b)	Identificar e incentivar estudantes de ensino médio, de graduação e de pós-graduação que apresentam  perfil inventivo, em busca de projetos com potencial para se transformar em Inovação.</p>
             <br />
-            <h4>III - PARTICIPAÃ‡ÃƒO</h4>
+            <h4>III - PARTICIPAÇÃO</h4>
             
-            <p>Artigo 4Âº â€“ A participaÃ§Ã£o no concurso PUC Jovens ideais Ã© aberta a:</p>
-<p style="margin-left: 10%;">a)	estudantes de graduaÃ§Ã£o e pÃ³s-graduaÃ§Ã£o regularmente matriculados na PUCPR de todos os Campi;</p>
-<p style="margin-left: 10%;">b)	estudantes de graduaÃ§Ã£o e pÃ³s-graduaÃ§Ã£o de outras IES brasileiras. </p>
-<p style="margin-left: 10%;">c)	estudantes de ensino mÃ©dio dos ColÃ©gios que participam do Programa PIBIC Jr da PUCPR situados em Curitiba e RegiÃ£o Metropolitana (anexo 1);</p>
+            <p>Artigo 4º - A participação no concurso PUC Jovens ideais é aberta a:</p>
+<p style="margin-left: 10%;">a)	estudantes de graduação e pós-graduação regularmente matriculados na PUCPR de todos os Campi;</p>
+<p style="margin-left: 10%;">b)	estudantes de graduação e pós-graduação de outras IES brasileiras. </p>
+<p style="margin-left: 10%;">c)	estudantes de ensino médio dos Colégios que participam do Programa PIBIC Jr da PUCPR situados em Curitiba e Região Metropolitana (anexo 1);</p>
             
-            <p>Artigo 5Âº â€“ A participaÃ§Ã£o poderÃ¡ ser individual ou em grupo de atÃ© 4 estudantes e um professor, se for o caso.  </p>
+            <p>Artigo 5º 
+            - A participação poderá ser individual ou em grupo de até 4 estudantes e um professor, se for o caso.  </p>
             
             <br />
-            <h4>IV â€“ MODALIDADES</h4>
+            <h4>IV - MODALIDADES</h4>
             
-            <p>Artigo 6Âº - As propostas a serem inscritas deverÃ£o respeitar as modalidades abaixo:</p>
-<p style="margin-left: 10%;">a)	Jovens Ideias â€“ esta modalidade estÃ¡ restrita a propostas oriundas de estudantes sem a orientaÃ§Ã£o de professor;</p>
-<p style="margin-left: 10%;">b)	Pesquisar Ã© Evoluir â€“ nesta modalidade podem ser inscritas propostas decorrentes de projetos de iniciaÃ§Ã£o cientÃ­fica (PIBIC), iniciaÃ§Ã£o tecnolÃ³gica (PIBITI), trabalho de conclusÃ£o de curso (TCC), dissertaÃ§Ãµes de mestrado, tese de doutorado. Desse modo, configuram-se propostas que possuem um professor orientador.</p>
-<p style="margin-left: 10%;">c)	Jovens Ideias JÃºnior â€“ nesta modalidade podem ser inscritas propostas oriundas de estudantes de ensino mÃ©dio, com ou sem orientaÃ§Ã£o de professor.</p>
+            <p>Artigo 6º - As propostas a serem inscritas deverão respeitar as modalidades abaixo:</p>
+<p style="margin-left: 10%;">a)	Jovens Ideias - esta modalidade está restrita a propostas oriundas de estudantes sem a orientação de professor;</p>
+<p style="margin-left: 10%;">b)	Pesquisar é Evoluir - nesta modalidade podem ser inscritas propostas decorrentes de projetos de iniciação científica (PIBIC), iniciação tecnológica (PIBITI), trabalho de conclusão de curso (TCC), dissertações de mestrado, tese de doutorado. Desse modo, configuram-se propostas que possuem um professor orientador.</p>
+<p style="margin-left: 10%;">c)	Jovens Ideias Júnior - nesta modalidade podem ser inscritas propostas oriundas de estudantes de ensino médio, com ou sem orientação de professor.</p>
 
 
               

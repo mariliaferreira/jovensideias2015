@@ -19,7 +19,7 @@ require ("db.php");
 			?>
 			<form action="<?php page();?>" method="post">
 			<article>
-				<h2>Inscri√ß√£o</h2>
+				<h2>InscriÁ„o</h2>
 				<div class="inscricao">
 					<ul>
 						<li class="active">
@@ -38,31 +38,33 @@ require ("db.php");
 				</div>
 				<div class="dados-inscricao-1" style="background-color: #f0f0f0;">
 					<!--- definir estilo --->
-					<div id="erro1" style="color: red;"><?php echo $erros;?></div>
                     
-                    <div class="dado-orientador" style="margin-left: 90px; padding-top: 60px;">
-                        Informe seu CPF<br /> <input type="text" name="dd1" id="dd1" value="<?php echo $dd[1];?>" style="width: 150px;"><br /><br />
-                    </div>
+                    <div class="dado-orientadorf" style="margin-left: 90px; padding-top: 60px;">
+                        Informe seu CPF<br /> <input type="text" name="dd1" id="dd1" value="<?php echo $dd[1];?>" style="width: 150px;"><br />
+                        <div id="erro1" class="erro"><i class="fa fa-exclamation-triangle"></i> <?php echo $erros;?></div>
+                    </div> 
+                    
+                    
 					
 					<ul>
 						<li>
 							<input type="radio" name="dd2" id="dd2" value="1" <?php echo $checked[1];?>>
-							<label for="sem-orientacao"><span>PUC Jovens Ideias</span> - Sou estudante de gradua√ß√£o ou p√≥s-gradua√ß√£o e meu projeto <strong>n√£o tem</strong> orienta√ß√£o de Professor/Mentor.</label>
+							<label for="sem-orientacao"><span>PUC Jovens Ideias</span> - Sou estudante de graduaÁ„o ou pÛs-graduaÁ„o e meu projeto <strong>n„o tem</strong> orientaÁ„o de Professor/Mentor.</label>
 						</li>
 						<li>
 							<input type="radio" name="dd2" id="dd2" value="2" <?php echo $checked[2];?>>
-							<label for="com-orientacao"><span>Espa√ßo Pesquisar √© Evoluir</span> - Sou estudante de gradua√ß√£o ou p√≥s-gradua√ß√£o e meu projeto <strong>tem orienta√ß√£o</strong> de Professor/Mentor (TCC, PIBIC, PIBITI, monografia, disserta√ß√£o de mestrado, tese de doutorado, etc).</label>
+							<label for="com-orientacao"><span>EspaÁo Pesquisar È Evoluir</span> - Sou estudante de graduaÁ„o ou pÛs-graduaÁ„o e meu projeto <strong>tem orientaÁ„o</strong> de Professor/Mentor (TCC, PIBIC, PIBITI, monografia, dissertaÁ„o de mestrado, tese de doutorado, etc).</label>
 						</li>
 						<li>
 							<input type="radio" name="dd2" id="dd2" value="3" <?php echo $checked[3];?>>
-							<label for="com-orientacao"><span>PUC Jovens Ideias Junior</span> - Sou estudante do <strong>Ensino M√©dio</strong> e meu projeto <strong>tem</strong> orienta√ß√£o de Professor/Mentor.</label>
+							<label for="com-orientacao"><span>PUC Jovens Ideias Junior</span> - Sou estudante do <strong>Ensino MÈdio</strong> e meu projeto <strong>tem</strong> orientaÁ„o de Professor/Mentor.</label>
 						</li>
 					</ul>
 					
                     					
 					
 					<div class="nav-form">
-						<input type="submit" name="acao" id="acao" value="Pr√≥ximo" class="botao-prox">
+						<input type="submit" name="acao" id="acao" value="PrÛximo" class="botao-prox">
 					</div>
 				</div>
 			</article>

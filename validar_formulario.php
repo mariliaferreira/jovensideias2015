@@ -35,7 +35,7 @@ switch ($pag) {
 			} else {
 				if (strlen($erros) > 0) { $erros .= '<BR>';
 				}
-				$erros .= 'Erro, CPF inválido!';
+				$erros .= 'Ops, este CPF parece ser inválido.';
 				$ok = 0;
 			}
 			/* Valia se já existe projeto deste CPF */
@@ -49,8 +49,8 @@ switch ($pag) {
 			if ($line = db_read($rlt)) {
 				if (strlen($erros) > 0) { $erros .= '<BR>';
 				}
-				$erros .= 'Erro, Já existe um projeto submetido com esse CPF! ';
-				$link = '<A HREF="inscricao_resumo.php?dd0='.$cpf.'&dd1='.checkpost($cpf).'">ver resumo do projeto</A>';
+				$erros .= 'Ops, já existe um projeto submetido com esse CPF. ';
+				$link = '<A HREF="inscricao_resumo.php?dd0='.$cpf.'&dd1='.checkpost($cpf).'">Ver o resumo deste projeto.</A>';
 				$erros .= $link;
 				$ok = 0;
 			}
