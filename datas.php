@@ -25,49 +25,49 @@
                     <li data-sr='hustle 5%'>
                         <ul>
                             <li><span>15</span><br /> de Maio</li>
-                            <li><b>LanÃ§amento do Edital</b></li>
+                            <li><b>Lançamento do Edital</b></li>
                         </ul>
                     </li>
                     
                     <li data-sr='wait 0.5s, hustle 5%'>
                         <ul>
                             <li><span>30</span><br /> de Maio</li>
-                            <li><b>InÃ­cio</b> das inscriÃ§Ãµes</li>
+                            <li><b>Início</b> das inscrições</li>
                         </ul>
                     </li>
                                     
                     <li data-sr='wait 0.6s, hustle 5%'>
                         <ul>
                             <li><span>27</span><br /> de Julho</li>
-                            <li><b>Prazo Final</b> das inscriÃ§Ãµes</li>
+                            <li><b>Prazo Final</b> das inscrições</li>
                         </ul>
                     </li>
                     
                     <li data-sr='wait 0.8s, hustle 5%'>
                         <ul>
                             <li><span>03</span><br /> de Agosto</li>
-                            <li><b>AvaliaÃ§Ã£o das Propostas</b> 03 Ã  07 de Agosto.</li>
+                            <li><b>Avaliação das Propostas</b> 03 à 07 de Agosto.</li>
                         </ul>
                     </li>
                     
                     <li data-sr='wait 1s, hustle 5%'>
                         <ul>
                             <li><span>12</span><br /> de Agosto</li>
-                            <li>DivulgaÃ§Ã£o dos selecionados.</li>
+                            <li>Divulgação dos selecionados.</li>
                         </ul>
                     </li>
                     
                     <li data-sr='wait 1s, hustle 5%'>
                         <ul>
                             <li><span>_</span><br /> de _</li>
-                            <li>ReuniÃ£o presencial obrigatÃ³ria (selecionados Curitiba)</li>
+                            <li>Reunião presencial obrigatória (selecionados Curitiba)</li>
                         </ul>
                     </li>
                     
                     <li data-sr='wait 1s, hustle 5%'>
                         <ul>
                             <li><span>_</span><br /> de _</li>
-                            <li>ReuniÃ£o atravÃ©s de Skype obrigatÃ³ria (selecionados de outras cidades)</li>
+                            <li>Reunião através de Skype obrigatória (selecionados de outras cidades)</li>
                         </ul>
                     </li>
                     
@@ -81,7 +81,7 @@
                     <li data-sr='wait 1.2s, hustle 5%'>
                         <ul>
                             <li><span>06</span><br /> de Outubro</li>
-                            <li><b>06, 07 e 08 de Outubro: ExposiÃ§Ã£o</b> do projeto no SEMIC.</li>
+                            <li><b>06, 07 e 08 de Outubro: Exposição</b> do projeto no SEMIC.</li>
                         </ul>
                     </li>
                     
@@ -90,7 +90,7 @@
                     <li data-sr='wait 1.2s, hustle 5%'>
                         <ul>
                             <li><span>08</span><br /> de Outubro</li>
-                            <li><b>Resultado</b> e premiaÃ§Ã£o no SEMIC.</li>
+                            <li><b>Resultado</b> e premiação no SEMIC.</li>
                         </ul>
                     </li>
                     

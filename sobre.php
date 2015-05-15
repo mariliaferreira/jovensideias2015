@@ -71,6 +71,17 @@ Atenção: a participação pode ser individual ou em grupo de até 4 estudantes. A o
                 </ul>
                 
             </div>
+
+            <div class="card">
+                <div class="bg-sticker">
+                    <h3>Como me inscrever?</h3>
+                </div>
+                <div class="sticker-card"><i class="fa fa-diamond"></i></div>
+                
+                <p>A inscrição deverá ser feita através do site <a href="http://www2.pucpr.br/reol/eventos/jovensideias2015">www.pucpr.br/jovensideias2015</a> a partir do dia 30/05/2015.</p>
+                <p>Não esqueça de <a href="http://www2.pucpr.br/reol/eventos/jovensideias2015/edital.php">ler o edital</a> para ter todas as informações do concurso.</p>
+                
+            </div>
             
             <div style="clear: both;"></div>
             
