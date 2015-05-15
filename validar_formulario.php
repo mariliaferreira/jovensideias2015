@@ -5,7 +5,7 @@ $jid = '0000087';
 
 require_once ("_ged_submit_files.php");
 
-require ("../_include/_class_form.php");
+require ("../../_include/_class_form.php");
 $form = new form;
 
 switch ($pag) {
