@@ -70,7 +70,7 @@ require ("db.php");
 			<h3>Preencha as informações sobre o projeto:</h3>
             <div class="dado-orientador">
             
-			Título do Projeto <font color="red"><?php echo $erro['dd5'];?></font><br /><textarea name="dd5" cols=80 rows=4><?php echo $dd[5];?></textarea><br /><br />
+			Título do Projeto <font color="red"><?php echo $erro['dd5'];?></font><br /><input name="dd5" ><?php echo $dd[5];?></input><br /><br />
 			
 			Link do video (opcional)<br /><input type="text" name="dd6" value="<?php echo $dd[6];?>"><br /><br />
 			<br /><br />
