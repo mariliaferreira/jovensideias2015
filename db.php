@@ -7,12 +7,12 @@ date_default_timezone_set('GMT');
 //-------------------------------------- Paramentros para DEBUG
 ini_set('display_errors', 0);
 ini_set('error_reporting', 0);
-$include .= "../_include/";
+$include = '../_include/';
 $debug = True;
 if($debug == true)
 	{
-	ini_set('display_errors', 255);
-	ini_set('error_reporting', 255);
+	ini_set('display_errors', 1);
+	ini_set('error_reporting', 7);
 	}
 $debug = false;
 //-------------------------------------- Includes Padrï¿½es
@@ -59,7 +59,7 @@ for ($k=0;$k < 100;$k++)
 	$varf=$vars[$varf];
 	//if (isset($varf) and ($k > 1)) {	//$varf = str_replace($varf,"A","ï¿½"); }
 	$varf = troca($varf,chr(92),'');
-	$dd[$k] = troca($varf,"'","ï¿½");
+	$dd[$k] = troca($varf,"'","´");
 	}
 $acao = $vars['acao'];
 $nocab = $vars['nocab'];

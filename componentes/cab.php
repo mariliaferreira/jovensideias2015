@@ -4,7 +4,7 @@
 
 <head>        
         <title>PUC Jovens Ideias 2015</title>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1" />
         <link rel="stylesheet" type="text/css" href="scss/estilo.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.css">

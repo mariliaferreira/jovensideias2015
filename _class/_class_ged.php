@@ -49,11 +49,11 @@ class ged {
 		array_push($cp, array('$H8', 'id_doct', '', False, True));
 		array_push($cp, array('$S50', 'doct_nome', msg('descricao'), False, True));
 		array_push($cp, array('$S3', 'doct_codigo', 'Cï¿½digo', False, True));
-		array_push($cp, array('$O 1:SIM&0:Nï¿½O', 'doct_publico', msg('ged_pub'), False, True));
-		array_push($cp, array('$O 1:SIM&0:Nï¿½O', 'doct_avaliador', msg('ged_adhoc'), False, True));
-		array_push($cp, array('$O 1:SIM&0:Nï¿½O', 'doct_autor', msg('ged_autor'), False, True));
-		array_push($cp, array('$O 0:Nï¿½O&1:SIM', 'doct_restrito', msg('ged_restrict'), False, True));
-		array_push($cp, array('$O 1:SIM&0:Nï¿½O', 'doct_ativo', msg('ativo'), False, True));
+		array_push($cp, array('$O 1:SIM&0:NÃO', 'doct_publico', msg('ged_pub'), False, True));
+		array_push($cp, array('$O 1:SIM&0:NÃO', 'doct_avaliador', msg('ged_adhoc'), False, True));
+		array_push($cp, array('$O 1:SIM&0:NÃO', 'doct_autor', msg('ged_autor'), False, True));
+		array_push($cp, array('$O 0:NÃO&1:SIM', 'doct_restrito', msg('ged_restrict'), False, True));
+		array_push($cp, array('$O 1:SIM&0:NÃO', 'doct_ativo', msg('ativo'), False, True));
 		return ($cp);
 	}
 
@@ -107,7 +107,7 @@ class ged {
 	function upload_botton($tp = '', $bt = '') {
 		if (strlen($bt) == 0) { $bt = msg('upload');
 		}
-		$link = "javascript:newxy2('ged_upload.php?dd1=" . $this -> protocol . "&dd2=" . $tp . "&dd50=" . $this -> tabela . "',600,400);";
+		$link = "javascript:newwin3('ged_upload.php?dd1=" . $this -> protocol . "&dd2=" . $tp . "&dd50=" . $this -> tabela . "',600,400);";
 		$link = '<A HREF="' . $link . '">';
 		$link .= $bt;
 		$link .= '</A>';
@@ -637,7 +637,7 @@ class ged {
 			if ($ind < 0) { $erro = '<font color=red >Erro:01 - ' . msg('erro_extensao') . '</font>';
 			}
 
-			/* diretï¿½rio */
+			/* diretorio */
 			$nome = substr($nome, 0, strlen($nome) - 4);
 			$nome = lowercasesql(troca($nome, ' ', '_'));
 			$nome .= $ext;
@@ -653,7 +653,7 @@ class ged {
 				$this -> dir($path);
 			}
 
-			/* caso nï¿½o apresente erro */
+			/* caso NÃO apresente erro */
 			if (strlen($erro) == 0) {
 				$compl = $dd[1] . '-' . substr(md5($nome . date("His")), 0, 5) . '-';
 				$compl = troca($compl, '/', '-');
