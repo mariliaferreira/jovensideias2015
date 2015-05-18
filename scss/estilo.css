@@ -510,6 +510,18 @@ footer {
     float: left;
     margin-right: 5%; }
 
+.erro {
+  background-color: rgba(255, 189, 189, 0.8);
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  color: #2a2a2a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ff8c8c; }
+
 /* --------------------------- */
 /* BARRA INSTITUCIONAL - PUCPR */
 /* --------------------------- */

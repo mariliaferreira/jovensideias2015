@@ -18,8 +18,8 @@
             <ul>
                 <li>jovensideias@pucpr.br</li>
                 <li>+55 (41) 3271-2112   |   3271-1602   |   3271-1165</li>
-                <li>Pontif√≠cia Universidade Cat√≥lica do Paran√°</li>
-                <li>Coordena√ß√£o de Inicia√ß√£o Cient√≠fica</li>
+                <li>PontifÌcia Universidade CatÛlica do Paran·</li>
+                <li>CoordenaÁ„o de IniciaÁ„o CientÌfica</li>
             </ul>
         
         </article>
