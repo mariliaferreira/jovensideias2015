@@ -110,7 +110,7 @@ require ("db.php");
 									<select name="dd13" id="cod_cidades">
 										<option value="" >Escolha um estado</option>
 										<?php
-										$uf = array('Paraná', 'Santa Catarina', 'Rio Grande do Sul', 'São Paulo');
+										$uf = array('Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins');
 										for ($r = 0; $r < count($uf); $r++) {
 											$check = '';
 											if ($uf[$r] == $dd[13]) { $check = ' selected ';
