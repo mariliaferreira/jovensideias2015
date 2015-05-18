@@ -150,7 +150,7 @@ require ("db.php");
 									<input type="text" name="dd17" value="<?php echo $dd[17];?>">
 									<br />
 								</div>
-								<input type="submit" name="acao" id="acao" value="Adicionar outro integrante >>" class="add-integrante">
+								<input type="submit" name="acao" id="acao" value="Adicionar outro integrante +" class="add-integrante">
 							</div>
 						</section>
 						<div class="nav-form">
