@@ -1,13 +1,18 @@
+
+
 <?php
     require('componentes/force-utf8.php');
 ?>
-
 
 <!DOCTYPE html>
 <html>
 	<?php
     require('componentes/cab.php');
 ?>
+
+
+
+
 	
     <body>
         
