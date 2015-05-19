@@ -43,14 +43,15 @@ require ("db.php");
 							<h3>Equipe</h3>
 							<table width="100%" cellpadding="0" cellspacing="0">
 								<tr>
-									<th width="5%">pos</th><th>Nome</th><th>e-mail</th>
+									<th width="5%"></th><th>Nome</th><th>e-mail</th>
 								</tr>
 								<?php
 								$protocolo = trim($protocolo);
 								$sql = "select * from submit_autores where qa_protocolo = '$protocolo' ";
 								$rlt = db_query($sql);
-
+								$it = 0;
 								while ($line = db_read($rlt)) {
+									$it++;
 									echo '<tr>';
 									echo '<td align="center" style="border: 1px solid #B0B0B0; padding: 5px 5px 5px 5px;">';
 									echo $line['qa_ordem'];
@@ -67,6 +68,10 @@ require ("db.php");
 									echo '</td>';
 									echo '</td></tr>';
 								}
+								if ($it == 0)
+									{
+										echo '<TR><TD colspan=4 style="border:1px solid #808080;" align="center"><font color="red">Sem equipe definida</font></td></tr>';
+									}
 								?>
 							</table>
 						</section>
@@ -110,7 +115,7 @@ require ("db.php");
 									<select name="dd13" id="cod_cidades">
 										<option value="" >Escolha um estado</option>
 										<?php
-										$uf = array('Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins');
+										$uf = array('Paraná', 'Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins');
 										for ($r = 0; $r < count($uf); $r++) {
 											$check = '';
 											if ($uf[$r] == $dd[13]) { $check = ' selected ';
@@ -129,7 +134,7 @@ require ("db.php");
 									<br />
 									<select name="dd15" id="cod_instituicao">
 										<?php
-										$sql = "select * from instituicao order by inst_nome ";
+										$sql = "select * from instituicao order by inst_ordem, inst_nome ";
 										$rlt = db_query($sql);
 										while ($line = db_read($rlt)) {
 											$check = '';

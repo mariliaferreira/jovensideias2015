@@ -51,7 +51,7 @@ require($include.'_class_windows.php');
 							$ged->file_delete();
 							echo $ged -> file_list();
 							echo '<br/>';
-							echo $ged -> upload_botton_with_type($ged->protocol,'','ATI');
+							echo $ged -> upload_botton_with_type($ged->protocol,'','PRJ');
 							?>
 							<br />
 							<br />

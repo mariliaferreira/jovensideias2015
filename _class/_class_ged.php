@@ -36,7 +36,7 @@ class ged {
 				doct_avaliador, doct_autor, doct_restrito,
 				doct_ativo
 				) values (
-				'Parecer do Relatï¿½rio Parcial','PRP',1,
+				'Parecer do Relatorio Parcial','PRP',1,
 				1,1,1,
 				1
 				)";
@@ -454,11 +454,11 @@ class ged {
 		global $messa, $secu, $ged_del, $dd, $page, $popup, $divname, $frame, $http;
 		$sx = '<table width="100%" class="tabela00">';
 		$sx .= '<TR>';
-		$sx .= '<TH>' . msg('file_name');
-		$sx .= '<TH>' . msg('file_filename');
-		$sx .= '<TH>' . msg('file_size');
-		$sx .= '<TH>' . msg('file_data');
-		$sx .= '<TH>' . msg('file_acao');
+		$sx .= '<TH>' . 'Tipo';
+		$sx .= '<TH>' . 'Documento';
+		$sx .= '<TH>' . 'Tamanho';
+		$sx .= '<TH>' . 'Data';
+		$sx .= '<TH>' . 'Ação';
 		$sql = "select * from " . $this -> tabela;
 		$sql .= " left join " . $this -> tabela . "_tipo on doc_tipo = doct_codigo ";
 		$sql .= " where doc_dd0 = '" . $this -> protocol . "' and doc_ativo=1 ";
@@ -640,9 +640,9 @@ class ged {
 			/* diretorio */
 			$nome = substr($nome, 0, strlen($nome) - 4);
 			$nome = lowercasesql(troca($nome, ' ', '_'));
-			$nome .= $ext;
+			$nome .= 'Upload de Documentos';
 
-			if (strlen($tipo) == 0) { $erro = msg('type_doc_not_defined');
+			if (strlen($tipo) == 0) { $erro = 'Tipo de documento não definido';
 			}
 
 			$this -> dir($path);
@@ -683,16 +683,16 @@ class ged {
 		}
 
 		if ($saved == 0) {
-			$options = '<option value="">' . msg('not_defined') . '</option>';
+			$options = '<option value="">não definido</option>';
 			$options .= $this -> documents_type_form();
 			$page = page();
 
 			$sx .= '<form id="upload" action="' . $page . '" method="post" enctype="multipart/form-data">
-					<fieldset><legend>' . msg('file_tipo') . '</legend>
+					<fieldset><legend>Tipo de aquivo</legend>
     				<select name="dd2" size=1>' . $options . '</select>
     				</fieldset>
     				<BR>
-	    			<nobr><fieldset class="fieldset01"><legend class="legend01">' . msg('upload_submit') . '</legend> 
+	    			<nobr><fieldset class="fieldset01"><legend class="legend01">Arquivo de submissão</legend> 
     				<span id="post"><input type="file" name="arquivo" id="arquivo" /></span>
     				<input type="hidden" name="dd0" value="' . $dd[0] . '"> 
     				<input type="hidden" name="dd1" value="' . $dd[1] . '">
@@ -702,14 +702,14 @@ class ged {
     				<input type="submit" value="enviar arquivo" name="acao" id="idbotao" />
     				</fieldset>  
     				<BR>
-    				<fieldset class="fieldset01"><legend class="legend01">' . msg('file_tipo') . '</legend>
+    				<fieldset class="fieldset01"><legend class="legend01">Tipos válidos de arquivos</legend>
     				MaxSize: <B>' . numberformat($this -> up_maxsize / (1024 * 1024), 0, ',', '.') . 'MByte</B>
     				&nbsp;&nbsp;&nbsp;
 					Extension Valid: <B>' . $this -> display_extension() . '</B>';
 			$sx .= '</fieldset></form>';
 		}
 		$sc .= '<font color="black">';
-		$sc .= '<center><h2>' . msg('gt_' . substr($this -> tabela, 0, 10)) . '</h2></center>';
+		$sc .= '<center><h2>Submissão de Arquivos</h2></center>';
 		//$sc .= '<div>'.msg('gi_'.trim(substr($this->tabela,0,10))).'</div>';
 		return ($sc . $sx);
 	}

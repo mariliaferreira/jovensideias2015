@@ -9,7 +9,6 @@ $form = new form;
 switch ($pag) {
 	case '1' :
 	/* Nao foi executado acao */
-		echo '1';
 		if (strlen($acao) == 0) {
 			$proto = $_SESSION['proto'];
 			if (strlen($proto) > 0) {
@@ -20,7 +19,7 @@ switch ($pag) {
 					$dd[2] = $line['doc_sessao'];
 					$checked[round($dd[2])] = 'checked';
 					$_SESSION['protocolo'] = $line['doc_protocolo'];
-					if ($line['doc_status'] != '@') {
+					if (trim($line['doc_status']) != '@') {
 						redirecina('inscricao_resumo.php');
 					}
 				}

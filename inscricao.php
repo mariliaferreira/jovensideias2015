@@ -37,7 +37,7 @@ require ("db.php");
                         <?php
                         if (strlen($erros) > 0)
 							{
-								echo '<div id="erro1" class="erro"><i class="fa fa-exclamation-triangle"></i>'.$erros .' ('.$ok.')</div>';
+								echo '<div id="erro1" class="erro"><i class="fa fa-exclamation-triangle"></i>'.$erros .' </div>';
 							}
 						?>
                         
