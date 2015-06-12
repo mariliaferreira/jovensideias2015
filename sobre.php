@@ -82,6 +82,16 @@ Podemos resumir o Concurso dizendo que é a oportunidade de professores e estudan
                 <p>Não esqueça de <a href="http://www2.pucpr.br/reol/eventos/jovensideias2015/edital.php">ler o edital</a> para ter todas as informações do concurso.</p>
                 
             </div>
+
+            <div class="card">
+                <div class="bg-sticker">
+                    <h3>Modelo de Projeto</h3>
+                </div>
+                <div class="sticker-card"><i class="fa fa-diamond"></i></div>
+                
+                <p><a href="files/modelo-projeto-2015.docx">Download do modelo de projeto</a>.</p>
+                
+            </div>
             
             <div style="clear: both;"></div>
             

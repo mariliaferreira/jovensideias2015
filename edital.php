@@ -182,17 +182,18 @@
                 Colégio Estadual Paulo Leminski<br />
                 Colégio Estadual Presidente Lamenha Lins<br />
                 Colégio Estadual Professor Guido Arzua<br />
-                Colégio Estadual Professor José Guimarães Colégio Estadual<br />Professor Elysio Vianna<br />
+                Colégio Estadual Professor José Guimarães<br />Colégio Estadual Professor Elysio Vianna<br />
                 Colégio Nossa Senhora Medianeira<br />
                 Colégio Marista Paranaense<br />
-                Colégio Marista Santa Maria Centro Educacional Top Gun</p>
+                Colégio Marista Santa Maria<br />
+                Centro Educacional Top Gun</p>
 
                 <br />
                 <p>Curitiba, 14 de maio de 2015.<br />
             Pró-Reitoria de Pesquisa e Pós-Graduação<br />
             Agência PUC de Ciência, Tecnologia e Inovação</p>
 
-                <a href="files/edital-jovens-ideias-anexo.pdf" style="color: #fff; background-color: #8b1217; padding: 10px 20px; text-decoration: none; float: right;" target="_blank"><i class="fa fa-download"></i> Download PDF do Edital</a>
+                <a href="files/edital04-2015-jovensideias.pdf" style="color: #fff; background-color: #8b1217; padding: 10px 20px; text-decoration: none; float: right;" target="_blank"><i class="fa fa-download"></i> Download PDF do Edital</a>
         
         </article>
                 

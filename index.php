@@ -17,7 +17,7 @@
         <div class="nome-concurso" data-sr='hustle 10%'>
             <span>Concurso<br /></span>
             <span>PUC<br /> Jovens<br /> Ideias<br /> 2015</span><br />
-            <span>Inscrições de 1 à 30 de Junho.</span>
+            <span>Inscrições de 30 de Maio a 27 de Julho.</span>
         </div>
         
         <div class="tema-concurso" data-sr='hustle 10%'>
